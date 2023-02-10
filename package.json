@@ -1,0 +1,24 @@
+{
+  "name": "cypress-e2e",
+  "version": "1.0.0",
+  "description": "Meu primeiro projeto com cypress E2E",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathaliaCapela/cypress-e2e.git"
+  },
+  "author": "Nathália Capela",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.7.0",
+    "cypress-multi-reporters": "^1.5.0",
+    "eslint": "^7.32.0"
+  },
+  "bugs": {
+    "url": "https://github.com/NathaliaCapela/cypress-e2e/issues"
+  },
+  "homepage": "https://github.com/NathaliaCapela/cypress-e2e#readme"
+}

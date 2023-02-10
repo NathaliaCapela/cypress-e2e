@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://developer-dev.eemovel.com.br",
+    "chromeWebSecurity": false,
+    "testFiles": "./**/**/*.spec.js",
+    "reporterOptions": {
+      "mochaFile": "./cypress/reports/junit/reporter-file-tests-[hash].xml"
+    }
+    
+  }
