@@ -11,6 +11,7 @@ it('Validar a existência dos itens como: Textos, botões e inputs na Login Page
     cy.get(' [data-cy="LoginFormSection"]').should('be.visible')
     cy.get('[data-cy="LoginWelcomeText"]').should('be.visible')
     cy.get('[data-cy="LoginWelcomeText"]').should('have.text', 'Seja bem-vindo(a)!')
+    cy.get('[data-cy="LoginCallToActionText"]').should('be.visible')
     cy.get('[data-cy="FormEmailLabel"]') .should('be.visible');
     cy.get('[data-cy="FormErrorMessageContainer"]').should('be.visible') 
     cy.get('[data-cy="FormPasswordInput"]').should('be.visible') 
@@ -18,7 +19,7 @@ it('Validar a existência dos itens como: Textos, botões e inputs na Login Page
     cy.get('[data-cy="SubmitButton"]').should('be.visible') 
     cy.get('[data-cy="CopyrightInformation"]').should('be.visible')
    
-
+git 
 });
 })
 
