@@ -15,7 +15,8 @@
   "dependencies": {
     "cypress": "^9.7.0",
     "cypress-multi-reporters": "^1.5.0",
-    "eslint": "^7.32.0"
+    "eslint": "^7.32.0",
+    "simple-git": "^3.16.0"
   },
   "bugs": {
     "url": "https://github.com/NathaliaCapela/cypress-e2e/issues"
